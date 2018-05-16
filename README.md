@@ -4,7 +4,7 @@
 
 
 
-Currently, we are try our best to implement LLVM API in Java. Therefore, our tool may not support all the features in LLVM. If you meet any problems, please feel free to email me at guzx14@mails.tsinghua.edu.cn.
+Currently, we are trying our best to implement LLVM API in Java. Therefore, our tool may not support all the features in LLVM. If you meet any problems, please feel free to email me at guzx14@mails.tsinghua.edu.cn.
 
 ### Prerequisites
 
@@ -17,7 +17,7 @@ To use VBSAC, we need the following tools installed
 
 ### Usage and Example
 
-We have prepare a video to direct the usage, click here TODO
+We have prepared a video to direct the usage, click here TODO
 
 1. uncompress the VBSAC and bug-visualizer
 
@@ -146,7 +146,7 @@ We have prepare a video to direct the usage, click here TODO
 
 ### Benchmark Composition
 
-All the benchmark test cases are listed in `benchmark` folder. All the cases either from widely-used benchmarks or real-world projects. We have modified some of them, including fixing irrelevant bugs, re-organizing the files for better precision and recall testing and so on. Currently, we only summarize the pointer-range relevant cases. All the bug details are summarized in `benchmark/benchmark_bug_details.xlsx`. We are appreciate to receive any suggestions.
+All the benchmark test cases are listed in `benchmark` folder. All the cases are either from widely-used benchmarks or real-world projects. We have modified some of them, including fixing irrelevant bugs, re-organizing the files for better precision and recall testing and so on. Currently, we only summarize the pointer-range relevant cases. All the bug details are summarized in `benchmark/benchmark_bug_details.xlsx`. We are appreciated to receive any suggestions.
 
 * [ITC](https://github.com/regehr/itc-benchmarks)
 * [Juliet Test Suite for C/C++ V1.3](https://samate.nist.gov/SRD/testsuite.php)
