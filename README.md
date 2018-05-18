@@ -15,7 +15,7 @@ For more details,
 
 * [a paper to illustrate our tool: ](docs/vbsac.pdf) 
 * [Notes for Value-based CPA implementation](http://tomgu1991.github.io/blog/Technical/Tsmart/ValueBaseCPA)
-* video to give a brief of our tool: 
+* [video to give a brief of our tool: ](https://youtu.be/z6p_BE9zSc0)
 
 ### Prerequisites
 
