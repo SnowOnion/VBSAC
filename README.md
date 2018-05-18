@@ -9,7 +9,7 @@ VBSAC is built on top of LLVM-IR 3.9, which provides a typed, static single assi
 For bug detecting phase, we implement our analysis extending [CPA algorithm](https://www.sosy-lab.org/research/pub/2007-CAV.Configurable_Software_Verification.pdf). We have implemented Location Analysis, CallStack Analysis, and Bound Analysis as fundamental components to traverse the control flow automata. Currently, we implement a pointer plug-in based on [AccessPath](http://impact.crhc.illinois.edu/shared/papers/pldi-00-pointer.pdf) and an interval plug-in based on multi-range which extended to maintain a fix-length list of traditional range in Analysis Module. Checkers are implemented to detect bugs relevant to integer and pointer, such as integer overflow, divide by zero,
 memory leak and so on.
 
-Currently, we are trying our best to implement LLVM API in Java. Therefore, our tool may not support all the features in LLVM. If you meet any problems, please feel free to email me at guzx14@mails.tsinghua.edu.cn.
+Currently, we are trying our best to implement LLVM API in Java. Therefore, our tool may not support all the features in LLVM. If you meet any problems, please feel free to email us at guzx14@mails.tsinghua.edu.cn. Our source code can be available for academic use only.
 
 For more details, 
 
