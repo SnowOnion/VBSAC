@@ -17,13 +17,13 @@ int main(int argc, char const *argv[])
 	if (y%x == 0) {// divide by zero
 	  // error processing
 	} else{
-	  q = p;
-	  for(index = 0; index < 5; index++) {
-        *(q+index) = index+1; // null pointer dereference
+		q = p;
+	  	for(index = 0; index < 5; index++) {
+        	*(q+index) = index+1; // null pointer dereference
+        }
+	  	if(*p < 10)
+  	  		callFree(q);
+  	  	free(p); // double free
     }
-    if(*p < 10)
-  	  callFree(q);
-  	  free(p); // double free
-	}
 	return 1; // memory leak
 }

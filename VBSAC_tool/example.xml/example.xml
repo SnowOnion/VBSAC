@@ -35,26 +35,9 @@
             </position>
          </location>
       </result>
-      <result weakness="Memory Leak" category="" desc="" severity="" confidence="">
+      <result weakness="Double Free" category="" desc="" severity="" confidence="">
          <cweIds class="java.util.ArrayList">
-            <integer>401</integer>
-         </cweIds>
-         <location>
-            <hint>takes the true branch</hint>
-            <position file="example.c" function="main">
-               <coordinate line="17" offset="0"/>
-            </position>
-         </location>
-         <location>
-            <hint>the heap object @H(main::call1) is not referenced any more</hint>
-            <position file="example.c" function="main">
-               <coordinate line="28" offset="0"/>
-            </position>
-         </location>
-      </result>
-      <result weakness="Use After Free" category="" desc="" severity="" confidence="">
-         <cweIds class="java.util.ArrayList">
-            <integer>416</integer>
+            <integer>415</integer>
          </cweIds>
          <location>
             <hint>takes the false branch</hint>
@@ -138,9 +121,9 @@
             </position>
          </location>
       </result>
-      <result weakness="Double Free" category="" desc="" severity="" confidence="">
+      <result weakness="Use After Free" category="" desc="" severity="" confidence="">
          <cweIds class="java.util.ArrayList">
-            <integer>415</integer>
+            <integer>416</integer>
          </cweIds>
          <location>
             <hint>takes the false branch</hint>
@@ -210,6 +193,23 @@
             <hint>the memory is already freed</hint>
             <position file="example.c" function="main">
                <coordinate line="26" offset="0"/>
+            </position>
+         </location>
+      </result>
+      <result weakness="Memory Leak" category="" desc="" severity="" confidence="">
+         <cweIds class="java.util.ArrayList">
+            <integer>401</integer>
+         </cweIds>
+         <location>
+            <hint>takes the true branch</hint>
+            <position file="example.c" function="main">
+               <coordinate line="17" offset="0"/>
+            </position>
+         </location>
+         <location>
+            <hint>the heap object @H(main::call1) is not referenced any more</hint>
+            <position file="example.c" function="main">
+               <coordinate line="28" offset="0"/>
             </position>
          </location>
       </result>
